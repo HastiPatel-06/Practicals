@@ -1,0 +1,121 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#static-page {
+  margin: 1% 11%;
+}
+nav {
+  background-color: white;
+}
+
+nav label {
+  font-size: xx-large;
+  font-weight: 900;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 113, 190, 1) 0%,
+    rgb(255, 110, 74) 50%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+  color: black;
+}
+#activated {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 113, 190, 1) 0%,
+    rgb(255, 110, 74) 50%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#btn {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 113, 190, 1) 0%,
+    rgb(255, 110, 74) 50%
+  );
+  margin-left: 20px;
+  font-size: large;
+  font-weight: 550;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-gap: 10px;
+  margin-top: 5%;
+}
+
+.image {
+  width: 400px;
+  height: 200px;
+  background-size: 100% 100%;
+}
+#image1 {
+  background-image: url("https://canopas-blogs.s3.ap-south-1.amazonaws.com/google_map_in_jetpack_compose_2_241658258d.png");
+}
+#image2 {
+  background-image: url("https://canopas-blogs.s3.ap-south-1.amazonaws.com/Advance_Typescript_type_558e548375.png");
+}
+#image3 {
+  background-image: url("https://canopas-blogs.s3.ap-south-1.amazonaws.com/deserialization_in_golang_a51a164d40.png");
+}
+#image4 {
+  background-image: url("https://canopas-blogs.s3.ap-south-1.amazonaws.com/Websocket_Alternative_28664d5e67.png");
+}
+.div {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 400px;
+  padding: 20px 0;
+}
+.author {
+  display: grid;
+  grid-template-columns: 35px 200px;
+  gap: 5px;
+}
+.img {
+  height: 30px;
+  width: 30px;
+  background-image: url("https://img.freepik.com/premium-vector/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-vector-illustration_561158-3408.jpg");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  margin-top: 30%;
+}
+.details {
+  font-size: small;
+  color: rgb(131, 131, 131);
+}
+.heading {
+  margin-bottom: 0;
+}
+.overview {
+  margin-top: 10px;
+  padding-top: 0;
+  margin-bottom: 5px;
+  color: rgb(131, 131, 131);
+}
